@@ -1,10 +1,10 @@
 <div align="center">
-  <h1>Davi Ramos Ferreira</h1>
-  <p>Cientista de Dados | Apaixonado por Tecnologia e Insights</p>
-  
-  <a href="https://www.linkedin.com/in/davi-ramos-ferreira-325354294/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
-  <a href="mailto:daviramoswork@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
-  <a href="https://portfolio-eight-ivory-17.vercel.app/"><img src="https://img.shields.io/badge/Portfólio-000000?style=for-the-badge&logo=About.me&logoColor=white"></a>
+  <h1>Davi Ramos Ferreira</h1>
+  <p>Cientista de Dados | Apaixonado por Tecnologia e Insights</p>
+  
+  <a href="https://www.linkedin.com/in/davi-ramos-ferreira-325354294/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+  <a href="mailto:daviramoswork@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
+  <a href="https://portfolio-eight-ivory-17.vercel.app/"><img src="https://img.shields.io/badge/Portfólio-000000?style=for-the-badge&logo=About.me&logoColor=white"></a>
 </div>
 
 ---
@@ -23,12 +23,14 @@ Olá! Sou um entusiasta da área de **Ciência de Dados** em busca de uma **opor
 ## 🛠️ Habilidades e Ferramientas
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"/>
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB"/>
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-  <img src="https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white" alt="Canva"/>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
+  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas"/>
+  <img src="https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white" alt="Selenium"/>
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"/>
+  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB"/>
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  <img src="https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white" alt="Canva"/>
 </div>
 
 ---
@@ -36,8 +38,8 @@ Olá! Sou um entusiasta da área de **Ciência de Dados** em busca de uma **opor
 ## 📊 Minhas Estatísticas do GitHub
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Daviramos7&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Daviramos7&layout=compact&langs_count=7&theme=dracula"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Daviramos7&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Daviramos7&layout=compact&langs_count=7&theme=dracula"/>
 </div>
 
 ---
@@ -46,5 +48,6 @@ Olá! Sou um entusiasta da área de **Ciência de Dados** em busca de uma **opor
 
 | Projeto | Descrição | Tecnologias | Link |
 |---|---|---|---|
+| **Análise de Desempenho - São Paulo FC** | Ferramenta em Python que coleta e analisa dados de jogadores do São Paulo FC, com um menu interativo para visualização de estatísticas. | `Python`, `Pandas`, `Selenium`, `BeautifulSoup` | [Ver Repositório](https://github.com/Daviramos7/projeto-analise-spfc) |
 | **Gerenciador de Tarefas** | Um sistema de gerenciamento de tarefas para organizar e acompanhar atividades. | `Python`, `SQLite3` | [Ver Repositório](https://github.com/Daviramos7/task_manager) |
 | **Adivinhe o Pokémon** | Um jogo divertido onde o jogador adivinha o Pokémon com base em uma imagem. | `HTML`, `CSS`, `JavaScript` | [Ver Repositório](https://github.com/Daviramos7/Guess-the-Pokemon) |

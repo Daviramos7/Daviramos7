@@ -48,6 +48,6 @@ Olá! Sou um entusiasta da área de **Ciência de Dados** em busca de uma **opor
 
 | Projeto | Descrição | Tecnologias | Link |
 |---|---|---|---|
-| **Análise de Desempenho - São Paulo FC** | Ferramenta em Python que coleta e analisa dados de jogadores do São Paulo FC, com um menu interativo para visualização de estatísticas. | `Python`, `Pandas`, `Selenium`, `BeautifulSoup` | [Ver Repositório](https://github.com/Daviramos7/projeto-analise-spfc) |
+| **Análise de Desempenho - São Paulo FC** | Ferramenta em Python que coleta e analisa dados de jogadores do São Paulo FC, com um menu interativo para visualização de estatísticas. | `Python`, `Pandas`, `Selenium`, `BeautifulSoup` | [Ver Repositório](https://github.com/Daviramos7/Projeto-SPFC) |
 | **Gerenciador de Tarefas** | Um sistema de gerenciamento de tarefas para organizar e acompanhar atividades. | `Python`, `SQLite3` | [Ver Repositório](https://github.com/Daviramos7/task_manager) |
 | **Adivinhe o Pokémon** | Um jogo divertido onde o jogador adivinha o Pokémon com base em uma imagem. | `HTML`, `CSS`, `JavaScript` | [Ver Repositório](https://github.com/Daviramos7/Guess-the-Pokemon) |

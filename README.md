@@ -46,8 +46,11 @@ Olá! Sou um entusiasta da área de **Ciência de Dados** em busca de uma **opor
 
 ## 📌 Projetos em Destaque
 
+## 📌 Projetos em Destaque
+
 | Projeto | Descrição | Tecnologias | Link |
 |---|---|---|---|
+| **Dashboard de Análise de Ações** | Dashboard full-stack para análise de ações, com pipeline de dados (ETL, Docker, Postgres) e deploy em nuvem (Streamlit Cloud). | `Python`, `Streamlit`, `Plotly`, `Pandas`, `Docker`, `PostgreSQL` | [App ao Vivo](https://stockdatapipeline-jnuaqfhrnt8jts3ymssrsp.streamlit.app/) <br> [Repositório](https://github.com/Daviramos7/stock_data_pipeline) |
 | **Análise de Desempenho - São Paulo FC** | Ferramenta em Python que coleta e analisa dados de jogadores do São Paulo FC, com um menu interativo para visualização de estatísticas. | `Python`, `Pandas`, `Selenium`, `BeautifulSoup` | [Ver Repositório](https://github.com/Daviramos7/Projeto-SPFC) |
 | **Gerenciador de Tarefas** | Um sistema de gerenciamento de tarefas para organizar e acompanhar atividades. | `Python`, `SQLite3` | [Ver Repositório](https://github.com/Daviramos7/task_manager) |
 | **Adivinhe o Pokémon** | Um jogo divertido onde o jogador adivinha o Pokémon com base em uma imagem. | `HTML`, `CSS`, `JavaScript` | [Ver Repositório](https://github.com/Daviramos7/Guess-the-Pokemon) |

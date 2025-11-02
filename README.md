@@ -46,8 +46,6 @@ Olá! Sou um entusiasta da área de **Ciência de Dados** em busca de uma **opor
 
 ## 📌 Projetos em Destaque
 
-## 📌 Projetos em Destaque
-
 | Projeto | Descrição | Tecnologias | Link |
 |---|---|---|---|
 | **Dashboard de Análise de Ações** | Dashboard full-stack para análise de ações, com pipeline de dados (ETL, Docker, Postgres) e deploy em nuvem (Streamlit Cloud). | `Python`, `Streamlit`, `Plotly`, `Pandas`, `Docker`, `PostgreSQL` | [App ao Vivo](https://stockdatapipeline-jnuaqfhrnt8jts3ymssrsp.streamlit.app/) <br> [Repositório](https://github.com/Daviramos7/stock_data_pipeline) |

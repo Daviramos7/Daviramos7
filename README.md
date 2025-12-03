@@ -1,6 +1,6 @@
 <div align="center">
   <h1>Davi Ramos Ferreira</h1>
-  <p>Cientista de Dados | Apaixonado por Tecnologia e Insights</p>
+  <p>Cientista e Engenheiro de Dados | Apaixonado por Tecnologia e Insights</p>
   
   <a href="https://www.linkedin.com/in/davi-ramos-ferreira-325354294/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
   <a href="mailto:daviramoswork@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
@@ -11,7 +11,7 @@
 
 ## 👋 Sobre Mim
 
-Olá! Sou um entusiasta da área de **Ciência de Dados** em busca de uma **oportunidade de estágio** para aplicar meu conhecimento e aprender com desafios reais. Tenho paixão por transformar dados brutos em insights valiosos e soluções inteligentes.
+Olá! Sou um entusiasta da área de **Ciência e Engenharia de Dados** em busca de uma **oportunidade de estágio** para aplicar meu conhecimento e aprender com desafios reais. Tenho paixão por transformar dados brutos em insights valiosos e soluções inteligentes.
 
 * 🔭 Atualmente, estou focado em aprimorar minhas habilidades em Python e análise de dados.
 * 🌱 Buscando ativamente minha primeira experiência profissional para crescer e contribuir em um ambiente inovador.

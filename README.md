@@ -11,7 +11,7 @@
 
 ## 👋 Sobre Mim
 
-Olá! Sou um entusiasta da área de **Ciência e Engenharia de Dados** em busca de uma **oportunidade de estágio** para aplicar meu conhecimento e aprender com desafios reais. Tenho paixão por transformar dados brutos em insights valiosos e soluções inteligentes. Estagiário de Engenharia de Dados na SEFAZ de Jaboatão dos Guararapes, desenvolvendo sistema fiscal municipal full stack (Angular + FastAPI + Python). Foco em pipelines ETL, automação e dados públicos.
+Olá! Sou um entusiasta da área de **Engenharia de Dados** em busca de uma **oportunidade de estágio** para aplicar meu conhecimento e aprender com desafios reais. Tenho paixão por transformar dados brutos em insights valiosos e soluções inteligentes. Estagiário de Engenharia de Dados na SEFAZ de Jaboatão dos Guararapes, desenvolvendo sistema fiscal municipal full stack (Angular + FastAPI + Python). Foco em pipelines ETL, automação e dados públicos.
 
 * 💬 Se você tiver alguma oportunidade ou quiser falar sobre tecnologia e dados, me chame!
 * ⚡ Nas horas vagas, você pode me encontrar jogando ou explorando novas playlists de música.

@@ -11,7 +11,7 @@
 
 ## 👋 Sobre Mim
 
-Olá! Sou um entusiasta da área de **Engenharia de Dados** em busca de uma **oportunidade de estágio** para aplicar meu conhecimento e aprender com desafios reais. Tenho paixão por transformar dados brutos em insights valiosos e soluções inteligentes. Estagiário de Engenharia de Dados na SEFAZ de Jaboatão dos Guararapes, desenvolvendo sistema fiscal municipal full stack (Angular + FastAPI + Python). Foco em pipelines ETL, automação e dados públicos.
+Olá! Sou um entusiasta da área de **Engenharia de Dados** em busca de uma **oportunidade de estágio**. Tenho paixão por transformar dados brutos em insights valiosos e soluções inteligentes. Estagiário de Engenharia de Dados na SEFAZ de Jaboatão dos Guararapes, desenvolvendo sistema fiscal municipal full stack (Angular + FastAPI + Python). Foco em pipelines ETL, automação e dados públicos.
 
 * 💬 Se você tiver alguma oportunidade ou quiser falar sobre tecnologia e dados, me chame!
 * ⚡ Nas horas vagas, você pode me encontrar jogando ou explorando novas playlists de música.
@@ -39,6 +39,6 @@ Olá! Sou um entusiasta da área de **Engenharia de Dados** em busca de uma **op
 |---|---|---|---|
 | **Dashboard de Análise de Ações** | Dashboard full-stack para análise de ações, com pipeline de dados (ETL, Docker, Postgres) e deploy em nuvem (Streamlit Cloud). | `Python`, `Streamlit`, `Plotly`, `Pandas`, `Docker`, `PostgreSQL` | [App ao Vivo](https://stockdatapipeline-jnuaqfhrnt8jts3ymssrsp.streamlit.app/) <br> [Ver Repositório](https://github.com/Daviramos7/stock_data_pipeline) |
 | **Análise de Desempenho - São Paulo FC** | Ferramenta em Python que coleta e analisa dados de jogadores do São Paulo FC, com um menu interativo para visualização de estatísticas. | `Python`, `Pandas`, `Selenium`, `BeautifulSoup` | [Ver Repositório](https://github.com/Daviramos7/Projeto-SPFC) |
-| **Gerenciador de Tarefas** | Um sistema de gerenciamento de tarefas para organizar e acompanhar atividades. | `Python`, `SQLite3` | [Ver Repositório](https://github.com/Daviramos7/task_manager) |
+| **Minecraft BedWars ETL Pipeline** | Pipeline ETL End-to-End para processamento de logs locais desestruturados. Utiliza PySpark, Window Functions e Regex avançado para contornar encodings legados e automatizar inteligência analítica. | `Python`, `PySpark`, `Pandas`, `Matplotlib`, `Regex` | [Ver Repositório](https://github.com/Daviramos7/Mushmc-bedwars-etl) |
 | **Adivinhe o Pokémon** | Um jogo divertido onde o jogador adivinha o Pokémon com base em uma imagem. | `HTML`, `CSS`, `JavaScript` | [App ao Vivo](https://guess-the-pokemon-coral.vercel.app/) <br> [Ver Repositório](https://github.com/Daviramos7/Guess-the-Pokemon) |
 | **Análise de Despesas de Recife** | Pipeline de Engenharia de Dados para análise de despesas públicas da Prefeitura do Recife (2023). | `Google Colab`, `Python`, `PySpark`, `Pandas`, `Matplotlib` | [Ver Repositório](https://github.com/Daviramos7/analise-despesas-recife-pyspark) |

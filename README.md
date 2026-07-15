@@ -1,44 +1,75 @@
 <div align="center">
-  <h1>Davi Ramos Ferreira</h1>
-  <p>Engenheiro de Dados e Desenvolvedor Full-Stack | Apaixonado por Tecnologia e Insights</p>
-  
-  <a href="https://www.linkedin.com/in/davi-ramos-ferreira-325354294/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
-  <a href="mailto:daviramoswork@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
-  <a href="https://portfolio-eight-ivory-17.vercel.app/"><img src="https://img.shields.io/badge/Portfólio-000000?style=for-the-badge&logo=About.me&logoColor=white"></a>
+
+# Davi Ramos Ferreira
+
+Estagiário em Engenharia de Dados e Backend Python
+
+Python · SQL · ETL · FastAPI · PySpark · PostgreSQL
+
+[LinkedIn](https://www.linkedin.com/in/davi-ramos-ferreira-325354294/) · [Portfólio](https://portfolio-eight-ivory-17.vercel.app/) · [E-mail](mailto:daviramoswork@gmail.com)
+
 </div>
 
----
+## Sobre
 
-## 👋 Sobre Mim
+Sou estudante de Ciência da Computação na UNINASSAU, com conclusão prevista para 2027, e atuo como estagiário na Secretaria Municipal da Fazenda de Jaboatão dos Guararapes.
 
-Olá! Sou um entusiasta da área de **Engenharia de Dados** em busca de uma **oportunidade de estágio**. Tenho paixão por transformar dados brutos em insights valiosos e soluções inteligentes. Estagiário de Engenharia de Dados na SEFAZ de Jaboatão dos Guararapes, desenvolvendo sistema fiscal municipal full stack (Angular + FastAPI + Python). Foco em pipelines ETL, automação e dados públicos.
+No estágio, participo do desenvolvimento de uma solução interna para ingestão, validação e análise de receitas municipais. Trabalho com Python, SQL, Pandas, FastAPI, Parquet e processos ETL, além de colaborar na interface com Angular e TypeScript.
 
-* 💬 Se você tiver alguma oportunidade ou quiser falar sobre tecnologia e dados, me chame!
-* ⚡ Nas horas vagas, você pode me encontrar jogando ou explorando novas playlists de música.
+Também desenvolvo projetos próprios de engenharia de dados e backend, com foco em transformar dados brutos e processos manuais em soluções organizadas, documentadas e úteis para tomada de decisão.
 
----
+## Tecnologias principais
 
-## 🛠️ Habilidades e Ferramentas
+**Dados:** Python, SQL, PostgreSQL, Pandas, PySpark, ETL, Parquet  
+**Backend:** FastAPI, APIs REST, Uvicorn, Swagger  
+**Visualização:** Streamlit, Plotly, Matplotlib, Power BI  
+**Engenharia de software:** Git, GitHub, Docker, testes e documentação técnica
 
-<div align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
-  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas"/>
-  <img src="https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white" alt="Selenium"/>
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"/>
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB"/>
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-  <img src="https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white" alt="Canva"/>
-</div>
+## Projetos em destaque
 
----
+### [Análise de Despesas Públicas do Recife com PySpark](https://github.com/Daviramos7/analise-despesas-recife-pyspark)
 
-## 📌 Projetos em Destaque
+Pipeline ETL que ingere, valida, transforma e analisa 127.119 registros públicos. Inclui tratamento de valores monetários brasileiros, verificações de qualidade, agregações com Spark e exportação dos resultados em CSV, JSON e PNG.
 
-| Projeto | Descrição | Tecnologias | Link |
-|---|---|---|---|
-| **Dashboard de Análise de Ações** | Dashboard full-stack para análise de ações, com pipeline de dados (ETL, Docker, Postgres) e deploy em nuvem (Streamlit Cloud). | `Python`, `Streamlit`, `Plotly`, `Pandas`, `Docker`, `PostgreSQL` | [App ao Vivo](https://stockdatapipeline-jnuaqfhrnt8jts3ymssrsp.streamlit.app/) <br> [Ver Repositório](https://github.com/Daviramos7/stock_data_pipeline) |
-| **Análise de Desempenho - São Paulo FC** | Ferramenta em Python que coleta e analisa dados de jogadores do São Paulo FC, com um menu interativo para visualização de estatísticas. | `Python`, `Pandas`, `Selenium`, `BeautifulSoup` | [Ver Repositório](https://github.com/Daviramos7/Projeto-SPFC) |
-| **Minecraft BedWars ETL Pipeline** | Pipeline ETL End-to-End para processamento de logs locais desestruturados. Utiliza PySpark, Window Functions e Regex avançado para contornar encodings legados e automatizar inteligência analítica. | `Python`, `PySpark`, `Pandas`, `Matplotlib`, `Regex` | [Ver Repositório](https://github.com/Daviramos7/Mushmc-bedwars-etl) |
-| **Adivinhe o Pokémon** | Um jogo divertido onde o jogador adivinha o Pokémon com base em uma imagem. | `HTML`, `CSS`, `JavaScript` | [App ao Vivo](https://guess-the-pokemon-coral.vercel.app/) <br> [Ver Repositório](https://github.com/Daviramos7/Guess-the-Pokemon) |
-| **Análise de Despesas de Recife** | Pipeline de Engenharia de Dados para análise de despesas públicas da Prefeitura do Recife (2023). | `Google Colab`, `Python`, `PySpark`, `Pandas`, `Matplotlib` | [Ver Repositório](https://github.com/Daviramos7/analise-despesas-recife-pyspark) |
+Python · PySpark · Spark SQL · Pandas · ETL
+
+### [MushMC BedWars ETL Pipeline](https://github.com/Daviramos7/Mushmc-bedwars-etl)
+
+Pipeline ponta a ponta para converter logs não estruturados em tabelas analíticas. Resolve encoding legado, parsing com expressões regulares e separação cronológica de partidas com Window Functions.
+
+Python · PySpark · Regex · Pandas · ETL
+
+### [Stock Data Pipeline](https://github.com/Daviramos7/stock_data_pipeline)
+
+Pipeline automatizado e dashboard interativo para análise de ativos. Consome dados de API, calcula indicadores com Pandas e NumPy e apresenta os resultados com Streamlit e Plotly.
+
+Python · Pandas · NumPy · Streamlit · Plotly
+
+### [Atleta Hib](https://github.com/Daviramos7/AtletaHib)
+
+Aplicação web/PWA e Android para centralização de dados de rotina, com autenticação, PostgreSQL, Row Level Security, validação de importações e integração com Health Connect.
+
+React · TypeScript · PostgreSQL · Supabase · Kotlin
+
+## Experiência prática
+
+Na Secretaria Municipal da Fazenda, contribuo com:
+
+- ingestão e tratamento de planilhas;
+- validação e padronização de dados;
+- armazenamento analítico em Parquet;
+- desenvolvimento de APIs REST com FastAPI;
+- automação de processos ETL;
+- apoio à construção de dashboards e indicadores.
+
+O projeto profissional utiliza dados internos e, por confidencialidade, seu código e suas bases não são publicados.
+
+## Formação
+
+Bacharelado em Ciência da Computação — UNINASSAU  
+Conclusão prevista: dezembro de 2027
+
+## Contato
+
+Recife, Pernambuco, Brasil  
+[LinkedIn](https://www.linkedin.com/in/davi-ramos-ferreira-325354294/) · [Portfólio](https://portfolio-eight-ivory-17.vercel.app/) · [E-mail](mailto:daviramoswork@gmail.com)

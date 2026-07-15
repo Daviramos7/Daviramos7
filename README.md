@@ -100,9 +100,16 @@ Na Secretaria Municipal da Fazenda, contribuo com:
 
 <div align="center">
 
-<img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Daviramos7&theme=github_dark&animation=load" alt="Estatísticas públicas do GitHub de Davi Ramos" />
+[![Repositórios públicos](https://img.shields.io/badge/Reposit%C3%B3rios%20p%C3%BAblicos-20-0D1621?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Daviramos7?tab=repositories)
+[![Seguidores](https://img.shields.io/github/followers/Daviramos7?style=for-the-badge&logo=github&label=Seguidores&color=19B5A5)](https://github.com/Daviramos7?tab=followers)
+[![Estrelas](https://img.shields.io/github/stars/Daviramos7?affiliations=OWNER&style=for-the-badge&logo=github&label=Estrelas&color=34495E)](https://github.com/Daviramos7?tab=repositories)
+[![Projetos em destaque](https://img.shields.io/badge/Projetos%20em%20destaque-4-19B5A5?style=for-the-badge&logo=github&logoColor=white)](#-projetos-em-destaque)
 
-<img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Daviramos7&theme=github_dark&animation=load" alt="Linguagens mais utilizadas nos repositórios públicos" />
+<br />
+
+![Python](https://img.shields.io/badge/Linguagem%20principal-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Dados](https://img.shields.io/badge/Foco-Engenharia%20de%20Dados-19B5A5?style=flat-square&logo=databricks&logoColor=white)
+![Backend](https://img.shields.io/badge/Backend-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 
 </div>
 

@@ -100,8 +100,9 @@ Na Secretaria Municipal da Fazenda, contribuo com:
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Daviramos7&show_icons=true&hide_border=true&include_all_commits=true&count_private=false&title_color=19B5A5&text_color=6B7280&icon_color=19B5A5&bg_color=00000000&locale=pt-br" alt="Estatísticas públicas do GitHub de Davi Ramos" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Daviramos7&layout=compact&hide_border=true&title_color=19B5A5&text_color=6B7280&bg_color=00000000&langs_count=8" alt="Linguagens mais utilizadas nos repositórios públicos" />
+<img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Daviramos7&theme=github_dark&animation=load" alt="Estatísticas públicas do GitHub de Davi Ramos" />
+
+<img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Daviramos7&theme=github_dark&animation=load" alt="Linguagens mais utilizadas nos repositórios públicos" />
 
 </div>
 

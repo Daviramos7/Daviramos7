@@ -4,7 +4,7 @@
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=20&duration=3000&pause=900&color=19B5A5&center=true&vCenter=true&width=800&lines=Python+%E2%80%A2+SQL+%E2%80%A2+ETL+%E2%80%A2+FastAPI+%E2%80%A2+PySpark+%E2%80%A2+PostgreSQL;Transformando+dados+brutos+em+solu%C3%A7%C3%B5es+confi%C3%A1veis)](https://git.io/typing-svg)
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/davi-ramos-ferreira-325354294/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/daviramosferreira/)
 [![Portfólio](https://img.shields.io/badge/Portf%C3%B3lio-0D1621?style=for-the-badge&logo=vercel&logoColor=white)](https://portfolio-eight-ivory-17.vercel.app/)
 [![E-mail](https://img.shields.io/badge/E--mail-19B5A5?style=for-the-badge&logo=gmail&logoColor=white)](mailto:daviramoswork@gmail.com)
 [![Localização](https://img.shields.io/badge/Recife--PE-34495E?style=for-the-badge&logo=googlemaps&logoColor=white)](#)
@@ -20,7 +20,7 @@ davi = {
     "formacao": "Ciência da Computação — UNINASSAU",
     "conclusao": "Dezembro de 2027",
     "atuacao": "Engenharia de Dados e Backend Python",
-    "foco": ["Python", "SQL", "ETL", "FastAPI", "PySpark", "PostgreSQL"],
+    "foco": ["Python", "SQL", "ETL", "dbt", "FastAPI", "PySpark", "PostgreSQL", "IA aplicada"],
     "objetivo": "Transformar dados e processos em soluções confiáveis"
 }
 ```
@@ -44,6 +44,7 @@ Participo do desenvolvimento de uma solução interna para ingestão, validaçã
 ![Apache Spark](https://img.shields.io/badge/Apache%20Spark-E25A1C?style=flat-square&logo=apachespark&logoColor=white)
 ![ETL](https://img.shields.io/badge/ETL-19B5A5?style=flat-square&logo=databricks&logoColor=white)
 ![Parquet](https://img.shields.io/badge/Parquet-50ABF1?style=flat-square&logo=apache&logoColor=white)
+![dbt](https://img.shields.io/badge/dbt-FF694B?style=flat-square&logo=dbt&logoColor=white)
 
 ### Backend e aplicações
 
@@ -62,13 +63,20 @@ Participo do desenvolvimento de uma solução interna para ingestão, validaçã
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
+### IA aplicada
+
+![LLM tool calling](https://img.shields.io/badge/LLM%20tool%20calling-19B5A5?style=flat-square)
+![Evals](https://img.shields.io/badge/Evals-0D1621?style=flat-square)
+![Gemini](https://img.shields.io/badge/Gemini-4285F4?style=flat-square&logo=googlegemini&logoColor=white)
+![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white)
+
 ---
 
 ## 🚀 Projetos em destaque
 
 | Projeto | O que demonstra | Tecnologias | Acesso |
 |:--|:--|:--|:--:|
-| 🏛️ **Análise de Despesas Públicas do Recife** | Pipeline ETL com validações de qualidade e análise de **127.119 registros públicos** | Python, PySpark, Spark SQL, Pandas | [Repositório](https://github.com/Daviramos7/analise-despesas-recife-pyspark) |
+| 🏛️ **Orçamento Público do Recife** | Pipeline de dados com dbt, API e agente de IA avaliado com evals: **132 mil registros**, modelo dimensional e **86 testes de dados** | Python, PySpark, dbt, PostgreSQL, FastAPI, LLM tool calling, Streamlit | [App online](https://orcamento-recife.streamlit.app) · [Repositório](https://github.com/Daviramos7/orcamento-publico-recife) |
 | 🕹️ **MushMC BedWars ETL** | Transformação de logs não estruturados, encoding legado, Regex e Window Functions | Python, PySpark, Pandas | [Repositório](https://github.com/Daviramos7/Mushmc-bedwars-etl) |
 | 📈 **Stock Data Pipeline** | Ingestão via API, indicadores quantitativos e dashboard interativo | Python, Pandas, NumPy, Streamlit, Plotly | [Repositório](https://github.com/Daviramos7/stock_data_pipeline) |
 | 🏃 **Atleta Hib** | PWA e aplicativo Android com autenticação, RLS, validação de dados e Health Connect | React, TypeScript, PostgreSQL, Supabase, Kotlin | [Repositório](https://github.com/Daviramos7/AtletaHib) |

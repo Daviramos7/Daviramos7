@@ -1,7 +1,7 @@
 """ETL dos dados públicos do GitHub do Davi -> SVGs animados para o README.
 
-Extract   : API REST (perfil, repositórios, linguagens, eventos) + GraphQL (calendário de contribuições)
-Transform : KPIs, sequências, linguagens por bytes, heatmap hora x dia, testes de qualidade de dados
+Extract   : API REST (perfil, repositórios, eventos) + GraphQL (calendário de contribuições)
+Transform : KPIs, sequências, série semanal, heatmap hora x dia, testes de qualidade de dados
 Load      : dist/pipeline.svg · dist/heatmap.svg · dist/run_log.svg
 
 Só stdlib. Uso: python scripts/github_etl.py [pasta_saida]
@@ -11,7 +11,7 @@ import os
 import sys
 import time
 import urllib.request
-from collections import Counter, defaultdict
+from collections import defaultdict
 from datetime import date, datetime, timedelta, timezone
 from xml.sax.saxutils import escape
 
@@ -50,15 +50,6 @@ while True:
     page += 1
 repos = [r for r in repos if not r["fork"]]
 etapa("extract", f"{len(repos)} repositórios lidos de /users/{USER}/repos", t0)
-
-t0 = time.perf_counter()
-lang_bytes = Counter()
-for r in repos:
-    try:
-        lang_bytes.update(get(r["languages_url"]))
-    except Exception:
-        pass
-etapa("extract", f"{len(lang_bytes)} linguagens em {sum(lang_bytes.values()) / 1e6:.1f} MB de código", t0)
 
 t0 = time.perf_counter()
 dias, totais = [], {}
@@ -131,13 +122,9 @@ hora_pico = max(range(24), key=lambda h: sum(heat[(d, h)] for d in range(7))) if
 
 stars = sum(r["stargazers_count"] for r in repos)
 forks = sum(r["forks_count"] for r in repos)
-total_bytes = sum(lang_bytes.values()) or 1
-top_langs = lang_bytes.most_common(6)
-outros = total_bytes - sum(b for _, b in top_langs)
-if lang_bytes and outros > 0:
-    top_langs.append(("Outras", outros))
+semanas = [sum(c for _, c in dias[k:k + 7]) for k in range(max(0, len(dias) - 182), len(dias), 7)]
 repo_recente = max(repos, key=lambda r: r["pushed_at"])["name"] if repos else "-"
-etapa("transform", "KPIs, sequências, linguagens por bytes e heatmap calculados", t0)
+etapa("transform", "KPIs, sequências, série semanal e heatmap calculados", t0)
 
 # testes de qualidade (estilo dbt test) — rodam de verdade sobre os dados extraídos
 testes = []
@@ -153,7 +140,7 @@ teste("not_null_repos_name", lambda: all(r.get("name") for r in repos))
 ids = [r["id"] for r in repos]
 teste("unique_repos_id", lambda: len(ids) == len(set(ids)))
 teste("not_negative_stargazers", lambda: all(r["stargazers_count"] >= 0 for r in repos))
-teste("positive_language_bytes", lambda: lang_bytes and all(b > 0 for b in lang_bytes.values()))
+teste("weekly_series_matches_calendar", lambda: sum(semanas) == sum(c for _, c in dias[max(0, len(dias) - 182):]))
 teste("calendar_has_365_days", lambda: len(dias) >= 365 or not TOKEN, f"{len(dias)} dias")
 teste("not_negative_contributions", lambda: all(c >= 0 for _, c in dias))
 teste("unique_events_id", lambda: len(eventos_unicos) == len({e["id"] for e in eventos_unicos.values()}), f"{len(eventos) - len(eventos_unicos)} duplicados removidos")
@@ -166,10 +153,6 @@ passou = sum(1 for t in testes if t[1])
 # LOAD (SVGs)
 # =====================================================================
 BG, CARD, TEAL, BLUE, TXT, MUTED, LINE = "#0D1621", "#132232", "#19B5A5", "#50ABF1", "#FFFFFF", "#8B9BB4", "#34495E"
-CORES = {"Python": "#3776AB", "TypeScript": "#3178C6", "JavaScript": "#F1E05A", "HTML": "#E34C26",
-         "CSS": "#663399", "Kotlin": "#A97BFF", "Jupyter Notebook": "#DA5B0B", "Java": "#B07219",
-         "C#": "#178600", "SCSS": "#C6538C", "Shell": "#89E051", "Dockerfile": "#384D54",
-         "PLpgSQL": "#336790", "Dart": "#00B4AB", "Outras": "#5C6B7F"}
 FONT = 'font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif"'
 MONO = 'font-family="Fira Code, Consolas, Menlo, monospace"'
 CSS = f"""<style>
@@ -247,21 +230,26 @@ for i, (rot, val) in enumerate(kpis):
              f'<text x="{x + 14}" y="244" font-size="11" class="m">{rot}</text></g>')
     c.append(contador(x + 14, 222, val, d + 0.2))
 
-c.append(f'<text x="28" y="290" font-size="13" font-weight="700" class="m" {MONO}>dim_linguagem · participação por bytes de código</text>')
-bx, bw, by = 28, W - 56, 302
-acc = 0
-for i, (lang, b) in enumerate(top_langs):
-    w = bw * b / total_bytes
-    cor = CORES.get(lang, TEAL)
-    c.append(f'<rect x="{bx + acc:.1f}" y="{by}" width="0" height="14" fill="{cor}">'
-             f'<animate attributeName="width" from="0" to="{w:.1f}" dur=".5s" begin="{1.9 + i * .35:.2f}s" fill="freeze"/></rect>')
-    acc += w
-c.append(f'<rect x="{bx}" y="{by}" width="{bw}" height="14" rx="7" fill="none" stroke="{BG}" stroke-width="3"/>')
-for i, (lang, b) in enumerate(top_langs):
-    col, row = i % 4, i // 4
-    lx, ly = 28 + col * 200, 344 + row * 22
-    c.append(f'<g class="fade" style="animation-delay:{2 + i * .35:.2f}s"><circle cx="{lx + 5}" cy="{ly - 4}" r="5" fill="{CORES.get(lang, TEAL)}"/>'
-             f'<text x="{lx + 16}" y="{ly}" font-size="12" class="t">{escape(lang)} <tspan class="m">{100 * b / total_bytes:.1f}%</tspan></text></g>')
+# série semanal (últimas 26 semanas) — linha que se desenha
+c.append(f'<text x="28" y="290" font-size="13" font-weight="700" class="m" {MONO}>agg_semanal · contribuições por semana, últimas {len(semanas)} semanas</text>')
+gx, gy, gw, gh = 28, 302, W - 56, 72
+c.append(f'<line x1="{gx}" x2="{gx + gw}" y1="{gy + gh}" y2="{gy + gh}" stroke="{LINE}"/>')
+if len(semanas) > 1:
+    mxs = max(semanas) or 1
+    pts = [(gx + gw * k / (len(semanas) - 1), gy + gh - gh * v / mxs) for k, v in enumerate(semanas)]
+    linha = " ".join(f"{x:.1f},{y:.1f}" for x, y in pts)
+    area = f"{gx},{gy + gh} " + linha + f" {gx + gw},{gy + gh}"
+    comp = sum(((pts[k + 1][0] - pts[k][0]) ** 2 + (pts[k + 1][1] - pts[k][1]) ** 2) ** .5 for k in range(len(pts) - 1))
+    c.append(f'<defs><linearGradient id="ga" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="{TEAL}" stop-opacity=".45"/>'
+             f'<stop offset="1" stop-color="{TEAL}" stop-opacity="0"/></linearGradient></defs>')
+    c.append(f'<polygon points="{area}" fill="url(#ga)" class="fade" style="animation-delay:3.3s"/>')
+    c.append(f'<polyline points="{linha}" fill="none" stroke="{TEAL}" stroke-width="2.5" stroke-linejoin="round" '
+             f'stroke-dasharray="{comp:.0f}" stroke-dashoffset="{comp:.0f}">'
+             f'<animate attributeName="stroke-dashoffset" from="{comp:.0f}" to="0" dur="1.6s" begin="1.9s" fill="freeze"/></polyline>')
+    kmax = semanas.index(max(semanas))
+    c.append(f'<circle cx="{pts[kmax][0]:.1f}" cy="{pts[kmax][1]:.1f}" r="4" fill="{TXT}" class="fade" style="animation-delay:3.5s"/>'
+             f'<text x="{pts[kmax][0] + (8 if pts[kmax][0] < gx + gw - 70 else -62):.1f}" y="{pts[kmax][1] + 4:.1f}" font-size="11" class="t fade" style="animation-delay:3.5s">pico: {max(semanas)}</text>')
+    c.append(f'<circle cx="{pts[-1][0]:.1f}" cy="{pts[-1][1]:.1f}" r="4" fill="{TEAL}" class="pulse"/>')
 
 c.append(f'<line x1="28" x2="{W - 28}" y1="392" y2="392" stroke="{LINE}"/>')
 destaques = [("🔥", "Sequência atual", f"{atual} dias"), ("🏆", "Maior sequência", f"{maior} dias"),

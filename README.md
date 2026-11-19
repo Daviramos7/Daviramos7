@@ -13,7 +13,7 @@
 
 ---
 
-## 👨‍💻 Sobre mim
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People/Technologist.png" alt="👨‍💻" width="28" /> Sobre mim
 
 ```python
 davi = {
@@ -25,6 +25,12 @@ davi = {
 }
 ```
 
+<div align="center">
+
+[![Consulta SQL animada](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&duration=2800&pause=800&color=19B5A5&background=0D1621&center=true&vCenter=true&width=700&height=44&lines=SELECT+*+FROM+davi.skills+WHERE+area+%3D+'dados';;INSERT+INTO+pipeline+VALUES+('extract'%2C+'transform'%2C+'load');;dbt+run+%26%26+dbt+test+--+86+testes+passando+%E2%9C%93)](https://git.io/typing-svg)
+
+</div>
+
 Sou estudante de Ciência da Computação e atuo como estagiário na Secretaria Municipal da Fazenda de Jaboatão dos Guararapes.
 
 Participo do desenvolvimento de uma solução interna para ingestão, validação e análise de receitas municipais, trabalhando com Python, SQL, Pandas, FastAPI, Parquet e processos ETL. Também colaboro na interface da aplicação com Angular e TypeScript.
@@ -33,7 +39,7 @@ Participo do desenvolvimento de uma solução interna para ingestão, validaçã
 
 ---
 
-## 🧰 Stack principal
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Toolbox.png" alt="🧰" width="28" /> Stack principal
 
 ### Dados e processamento
 
@@ -72,7 +78,7 @@ Participo do desenvolvimento de uma solução interna para ingestão, validaçã
 
 ---
 
-## 🚀 Projetos em destaque
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" alt="🚀" width="28" /> Projetos em destaque
 
 | Projeto | O que demonstra | Tecnologias | Acesso |
 |:--|:--|:--|:--:|
@@ -89,7 +95,7 @@ Participo do desenvolvimento de uma solução interna para ingestão, validaçã
 
 ---
 
-## 🏛️ Experiência prática
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Classical%20Building.png" alt="🏛️" width="28" /> Experiência prática
 
 Na Secretaria Municipal da Fazenda, contribuo com:
 
@@ -104,14 +110,19 @@ Na Secretaria Municipal da Fazenda, contribuo com:
 
 ---
 
-## 📊 GitHub em números
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Bar%20Chart.png" alt="📊" width="28" /> GitHub em números
 
 <div align="center">
+
+<img src="https://raw.githubusercontent.com/Daviramos7/Daviramos7/output/pipeline.svg" width="100%" alt="Pipeline ETL animado com os dados do meu GitHub, atualizado diariamente" />
+
+<br /><br />
 
 [![Repositórios públicos](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2FDaviramos7&query=%24.public_repos&label=Reposit%C3%B3rios%20p%C3%BAblicos&color=0D1621&style=for-the-badge&logo=github&logoColor=white)](https://github.com/Daviramos7?tab=repositories)
 [![Seguidores](https://img.shields.io/github/followers/Daviramos7?style=for-the-badge&logo=github&label=Seguidores&color=19B5A5)](https://github.com/Daviramos7?tab=followers)
 [![Estrelas](https://img.shields.io/github/stars/Daviramos7?affiliations=OWNER&style=for-the-badge&logo=github&label=Estrelas&color=34495E)](https://github.com/Daviramos7?tab=repositories)
-[![Projetos em destaque](https://img.shields.io/badge/Projetos%20em%20destaque-4-19B5A5?style=for-the-badge&logo=github&logoColor=white)](#-projetos-em-destaque)
+[![Projetos em destaque](https://img.shields.io/badge/Projetos%20em%20destaque-4-19B5A5?style=for-the-badge&logo=github&logoColor=white)](#projetos-em-destaque)
+[![Visitas ao perfil](https://komarev.com/ghpvc/?username=Daviramos7&label=Visitas%20ao%20perfil&color=19B5A5&style=for-the-badge)](https://github.com/Daviramos7)
 
 <br />
 
@@ -119,11 +130,39 @@ Na Secretaria Municipal da Fazenda, contribuo com:
 ![Dados](https://img.shields.io/badge/Foco-Engenharia%20de%20Dados-19B5A5?style=flat-square&logo=databricks&logoColor=white)
 ![Backend](https://img.shields.io/badge/Backend-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 
+<br /><br />
+
+<img src="https://streak-stats.demolab.com/?user=Daviramos7&locale=pt_BR&hide_border=true&background=0D1621&ring=19B5A5&fire=19B5A5&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=19B5A5&sideLabels=FFFFFF&dates=8B9BB4&stroke=34495E" alt="Sequência de contribuições" />
+
+<br /><br />
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Daviramos7&bg_color=0D1621&color=FFFFFF&line=19B5A5&point=FFFFFF&area=true&area_color=19B5A5&hide_border=true&radius=10&custom_title=Contribui%C3%A7%C3%B5es%20nos%20%C3%BAltimos%2031%20dias" width="100%" alt="Gráfico de contribuições recentes" />
+
+<br /><br />
+
+<img src="https://raw.githubusercontent.com/Daviramos7/Daviramos7/output/heatmap.svg" width="100%" alt="Heatmap de commits por hora e dia da semana" />
+
+<br /><br />
+
+<details>
+<summary><b>🔎 Ver o log da última execução do pipeline (com testes de qualidade de dados)</b></summary>
+<br />
+<img src="https://raw.githubusercontent.com/Daviramos7/Daviramos7/output/run_log.svg" width="100%" alt="Log da execução do ETL com testes de dados" />
+</details>
+
+<br />
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Daviramos7/Daviramos7/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Daviramos7/Daviramos7/output/github-snake.svg" />
+  <img alt="Animação da cobrinha comendo o gráfico de contribuições" src="https://raw.githubusercontent.com/Daviramos7/Daviramos7/output/github-snake.svg" />
+</picture>
+
 </div>
 
 ---
 
-## 📚 Formação e direcionamento
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Books.png" alt="📚" width="28" /> Formação e direcionamento
 
 🎓 **Bacharelado em Ciência da Computação — UNINASSAU**  
 📅 Conclusão prevista: **dezembro de 2027**  
@@ -139,4 +178,4 @@ Na Secretaria Municipal da Fazenda, contribuo com:
 </div>
 
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:19B5A5,100:0D1621&height=110&section=footer" alt="Rodapé visual" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:19B5A5,100:0D1621&height=110&section=footer&animation=twinkling" alt="Rodapé visual" />

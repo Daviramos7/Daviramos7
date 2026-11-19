@@ -13,7 +13,7 @@
 
 ---
 
-## 👨‍💻 Sobre mim
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People/Technologist.png" alt="👨‍💻" width="28" /> Sobre mim
 
 ```python
 davi = {
@@ -33,7 +33,7 @@ Participo do desenvolvimento de uma solução interna para ingestão, validaçã
 
 ---
 
-## 🧰 Stack principal
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Toolbox.png" alt="🧰" width="28" /> Stack principal
 
 ### Dados e processamento
 
@@ -72,7 +72,7 @@ Participo do desenvolvimento de uma solução interna para ingestão, validaçã
 
 ---
 
-## 🚀 Projetos em destaque
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" alt="🚀" width="28" /> Projetos em destaque
 
 | Projeto | O que demonstra | Tecnologias | Acesso |
 |:--|:--|:--|:--:|
@@ -89,7 +89,7 @@ Participo do desenvolvimento de uma solução interna para ingestão, validaçã
 
 ---
 
-## 🏛️ Experiência prática
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Classical%20Building.png" alt="🏛️" width="28" /> Experiência prática
 
 Na Secretaria Municipal da Fazenda, contribuo com:
 
@@ -104,14 +104,14 @@ Na Secretaria Municipal da Fazenda, contribuo com:
 
 ---
 
-## 📊 GitHub em números
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Bar%20Chart.png" alt="📊" width="28" /> GitHub em números
 
 <div align="center">
 
 [![Repositórios públicos](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2FDaviramos7&query=%24.public_repos&label=Reposit%C3%B3rios%20p%C3%BAblicos&color=0D1621&style=for-the-badge&logo=github&logoColor=white)](https://github.com/Daviramos7?tab=repositories)
 [![Seguidores](https://img.shields.io/github/followers/Daviramos7?style=for-the-badge&logo=github&label=Seguidores&color=19B5A5)](https://github.com/Daviramos7?tab=followers)
 [![Estrelas](https://img.shields.io/github/stars/Daviramos7?affiliations=OWNER&style=for-the-badge&logo=github&label=Estrelas&color=34495E)](https://github.com/Daviramos7?tab=repositories)
-[![Projetos em destaque](https://img.shields.io/badge/Projetos%20em%20destaque-4-19B5A5?style=for-the-badge&logo=github&logoColor=white)](#-projetos-em-destaque)
+[![Projetos em destaque](https://img.shields.io/badge/Projetos%20em%20destaque-4-19B5A5?style=for-the-badge&logo=github&logoColor=white)](#projetos-em-destaque)
 
 <br />
 
@@ -119,11 +119,23 @@ Na Secretaria Municipal da Fazenda, contribuo com:
 ![Dados](https://img.shields.io/badge/Foco-Engenharia%20de%20Dados-19B5A5?style=flat-square&logo=databricks&logoColor=white)
 ![Backend](https://img.shields.io/badge/Backend-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 
+<br /><br />
+
+<img src="https://streak-stats.demolab.com/?user=Daviramos7&locale=pt_BR&hide_border=true&background=0D1621&ring=19B5A5&fire=19B5A5&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=19B5A5&sideLabels=FFFFFF&dates=8B9BB4&stroke=34495E" alt="Sequência de contribuições" />
+
+<br /><br />
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Daviramos7/Daviramos7/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Daviramos7/Daviramos7/output/github-snake.svg" />
+  <img alt="Animação da cobrinha comendo o gráfico de contribuições" src="https://raw.githubusercontent.com/Daviramos7/Daviramos7/output/github-snake.svg" />
+</picture>
+
 </div>
 
 ---
 
-## 📚 Formação e direcionamento
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Books.png" alt="📚" width="28" /> Formação e direcionamento
 
 🎓 **Bacharelado em Ciência da Computação — UNINASSAU**  
 📅 Conclusão prevista: **dezembro de 2027**  
@@ -139,4 +151,4 @@ Na Secretaria Municipal da Fazenda, contribuo com:
 </div>
 
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:19B5A5,100:0D1621&height=110&section=footer" alt="Rodapé visual" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:19B5A5,100:0D1621&height=110&section=footer&animation=twinkling" alt="Rodapé visual" />

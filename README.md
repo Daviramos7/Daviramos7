@@ -76,7 +76,7 @@ Participo do desenvolvimento de uma solução interna para ingestão, validaçã
 
 | Projeto | O que demonstra | Tecnologias | Acesso |
 |:--|:--|:--|:--:|
-| 🏛️ **Orçamento Público do Recife** | Pipeline de dados com dbt, API e agente de IA avaliado com evals: **132 mil registros**, modelo dimensional e **86 testes de dados** | Python, PySpark, dbt, PostgreSQL, FastAPI, LLM tool calling, Streamlit | [App online](https://orcamento-recife.streamlit.app) · [Repositório](https://github.com/Daviramos7/orcamento-publico-recife) |
+| 🏛️ **Orçamento Público do Recife** | Receitas e despesas de 2023 em pipeline ponta a ponta: **127 mil registros**, modelo estrela com **86 testes de dados**, API de 12 endpoints e agente de IA medido por **35 evals** (Gemini 97,1% · qwen2.5 100%, zero números inventados) | Python, PySpark, dbt, PostgreSQL, FastAPI, LLM tool calling, Gemini, Streamlit, Docker | [App online](https://orcamento-recife.streamlit.app) · [Repositório](https://github.com/Daviramos7/orcamento-publico-recife) |
 | 🕹️ **MushMC BedWars ETL** | Transformação de logs não estruturados, encoding legado, Regex e Window Functions | Python, PySpark, Pandas | [Repositório](https://github.com/Daviramos7/Mushmc-bedwars-etl) |
 | 📈 **Stock Data Pipeline** | Ingestão via API, indicadores quantitativos e dashboard interativo | Python, Pandas, NumPy, Streamlit, Plotly | [Repositório](https://github.com/Daviramos7/stock_data_pipeline) |
 | 🏃 **Atleta Hib** | PWA e aplicativo Android com autenticação, RLS, validação de dados e Health Connect | React, TypeScript, PostgreSQL, Supabase, Kotlin | [Repositório](https://github.com/Daviramos7/AtletaHib) |

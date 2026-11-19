@@ -25,6 +25,12 @@ davi = {
 }
 ```
 
+<div align="center">
+
+[![Consulta SQL animada](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&duration=2800&pause=800&color=19B5A5&background=0D1621&center=true&vCenter=true&width=700&height=44&lines=SELECT+*+FROM+davi.skills+WHERE+area+%3D+'dados';;INSERT+INTO+pipeline+VALUES+('extract'%2C+'transform'%2C+'load');;dbt+run+%26%26+dbt+test+--+86+testes+passando+%E2%9C%93)](https://git.io/typing-svg)
+
+</div>
+
 Sou estudante de Ciência da Computação e atuo como estagiário na Secretaria Municipal da Fazenda de Jaboatão dos Guararapes.
 
 Participo do desenvolvimento de uma solução interna para ingestão, validação e análise de receitas municipais, trabalhando com Python, SQL, Pandas, FastAPI, Parquet e processos ETL. Também colaboro na interface da aplicação com Angular e TypeScript.
@@ -108,6 +114,10 @@ Na Secretaria Municipal da Fazenda, contribuo com:
 
 <div align="center">
 
+<img src="https://raw.githubusercontent.com/Daviramos7/Daviramos7/output/pipeline.svg" width="100%" alt="Pipeline ETL animado com os dados do meu GitHub, atualizado diariamente" />
+
+<br /><br />
+
 [![Repositórios públicos](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2FDaviramos7&query=%24.public_repos&label=Reposit%C3%B3rios%20p%C3%BAblicos&color=0D1621&style=for-the-badge&logo=github&logoColor=white)](https://github.com/Daviramos7?tab=repositories)
 [![Seguidores](https://img.shields.io/github/followers/Daviramos7?style=for-the-badge&logo=github&label=Seguidores&color=19B5A5)](https://github.com/Daviramos7?tab=followers)
 [![Estrelas](https://img.shields.io/github/stars/Daviramos7?affiliations=OWNER&style=for-the-badge&logo=github&label=Estrelas&color=34495E)](https://github.com/Daviramos7?tab=repositories)
@@ -122,6 +132,10 @@ Na Secretaria Municipal da Fazenda, contribuo com:
 <br /><br />
 
 <img src="https://streak-stats.demolab.com/?user=Daviramos7&locale=pt_BR&hide_border=true&background=0D1621&ring=19B5A5&fire=19B5A5&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=19B5A5&sideLabels=FFFFFF&dates=8B9BB4&stroke=34495E" alt="Sequência de contribuições" />
+
+<br /><br />
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Daviramos7&bg_color=0D1621&color=FFFFFF&line=19B5A5&point=FFFFFF&area=true&area_color=19B5A5&hide_border=true&radius=10&custom_title=Contribui%C3%A7%C3%B5es%20nos%20%C3%BAltimos%2031%20dias" width="100%" alt="Gráfico de contribuições recentes" />
 
 <br /><br />
 

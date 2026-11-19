@@ -108,7 +108,7 @@ Na Secretaria Municipal da Fazenda, contribuo com:
 
 <div align="center">
 
-[![Repositórios públicos](https://img.shields.io/badge/Reposit%C3%B3rios%20p%C3%BAblicos-20-0D1621?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Daviramos7?tab=repositories)
+[![Repositórios públicos](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2FDaviramos7&query=%24.public_repos&label=Reposit%C3%B3rios%20p%C3%BAblicos&color=0D1621&style=for-the-badge&logo=github&logoColor=white)](https://github.com/Daviramos7?tab=repositories)
 [![Seguidores](https://img.shields.io/github/followers/Daviramos7?style=for-the-badge&logo=github&label=Seguidores&color=19B5A5)](https://github.com/Daviramos7?tab=followers)
 [![Estrelas](https://img.shields.io/github/stars/Daviramos7?affiliations=OWNER&style=for-the-badge&logo=github&label=Estrelas&color=34495E)](https://github.com/Daviramos7?tab=repositories)
 [![Projetos em destaque](https://img.shields.io/badge/Projetos%20em%20destaque-4-19B5A5?style=for-the-badge&logo=github&logoColor=white)](#-projetos-em-destaque)

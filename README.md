@@ -122,6 +122,7 @@ Na Secretaria Municipal da Fazenda, contribuo com:
 [![Seguidores](https://img.shields.io/github/followers/Daviramos7?style=for-the-badge&logo=github&label=Seguidores&color=19B5A5)](https://github.com/Daviramos7?tab=followers)
 [![Estrelas](https://img.shields.io/github/stars/Daviramos7?affiliations=OWNER&style=for-the-badge&logo=github&label=Estrelas&color=34495E)](https://github.com/Daviramos7?tab=repositories)
 [![Projetos em destaque](https://img.shields.io/badge/Projetos%20em%20destaque-4-19B5A5?style=for-the-badge&logo=github&logoColor=white)](#projetos-em-destaque)
+[![Visitas ao perfil](https://komarev.com/ghpvc/?username=Daviramos7&label=Visitas%20ao%20perfil&color=19B5A5&style=for-the-badge)](https://github.com/Daviramos7)
 
 <br />
 
@@ -138,6 +139,18 @@ Na Secretaria Municipal da Fazenda, contribuo com:
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=Daviramos7&bg_color=0D1621&color=FFFFFF&line=19B5A5&point=FFFFFF&area=true&area_color=19B5A5&hide_border=true&radius=10&custom_title=Contribui%C3%A7%C3%B5es%20nos%20%C3%BAltimos%2031%20dias" width="100%" alt="Gráfico de contribuições recentes" />
 
 <br /><br />
+
+<img src="https://raw.githubusercontent.com/Daviramos7/Daviramos7/output/heatmap.svg" width="100%" alt="Heatmap de commits por hora e dia da semana" />
+
+<br /><br />
+
+<details>
+<summary><b>🔎 Ver o log da última execução do pipeline (com testes de qualidade de dados)</b></summary>
+<br />
+<img src="https://raw.githubusercontent.com/Daviramos7/Daviramos7/output/run_log.svg" width="100%" alt="Log da execução do ETL com testes de dados" />
+</details>
+
+<br />
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Daviramos7/Daviramos7/output/github-snake-dark.svg" />

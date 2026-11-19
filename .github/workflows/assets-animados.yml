@@ -1,4 +1,4 @@
-name: Gerar assets animados (pipeline + cobrinha)
+name: Gerar assets animados (ETL do GitHub + cobrinha)
 
 on:
   schedule:
@@ -20,8 +20,8 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: ETL do GitHub → pipeline.svg
-        run: python scripts/gerar_pipeline_svg.py dist/pipeline.svg
+      - name: ETL do GitHub → pipeline.svg, heatmap.svg, run_log.svg
+        run: python scripts/github_etl.py dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GH_USER: ${{ github.repository_owner }}

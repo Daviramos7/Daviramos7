@@ -39,6 +39,21 @@ Participo do desenvolvimento de uma solução interna para ingestão, validaçã
 
 ---
 
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" alt="🚀" width="28" /> Projetos em destaque
+
+| Projeto | O que demonstra | Tecnologias | Acesso |
+|:--|:--|:--|:--:|
+| 🏛️ **Orçamento Público do Recife** | Receitas e despesas de 2023 em pipeline ponta a ponta: **127 mil registros**, modelo estrela com **86 testes de dados**, API de 12 endpoints e agente de IA medido por **35 evals** (Gemini 97,1% · qwen2.5 100%, zero números inventados) | Python, PySpark, dbt, PostgreSQL, FastAPI, LLM tool calling, Gemini, Streamlit, Docker | [App online](https://orcamento-recife.streamlit.app) · [Repositório](https://github.com/Daviramos7/orcamento-publico-recife) |
+| 🕹️ **MushMC BedWars ETL** | Transformação de logs não estruturados, encoding legado, Regex e Window Functions | Python, PySpark, Pandas | [Repositório](https://github.com/Daviramos7/Mushmc-bedwars-etl) |
+
+<div align="center">
+
+[![Conheça todos os projetos](https://img.shields.io/badge/Conhe%C3%A7a%20todos%20os%20projetos-19B5A5?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Daviramos7?tab=repositories)
+
+</div>
+
+---
+
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Toolbox.png" alt="🧰" width="28" /> Stack principal
 
 ### Dados e processamento
@@ -78,23 +93,6 @@ Participo do desenvolvimento de uma solução interna para ingestão, validaçã
 
 ---
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" alt="🚀" width="28" /> Projetos em destaque
-
-| Projeto | O que demonstra | Tecnologias | Acesso |
-|:--|:--|:--|:--:|
-| 🏛️ **Orçamento Público do Recife** | Receitas e despesas de 2023 em pipeline ponta a ponta: **127 mil registros**, modelo estrela com **86 testes de dados**, API de 12 endpoints e agente de IA medido por **35 evals** (Gemini 97,1% · qwen2.5 100%, zero números inventados) | Python, PySpark, dbt, PostgreSQL, FastAPI, LLM tool calling, Gemini, Streamlit, Docker | [App online](https://orcamento-recife.streamlit.app) · [Repositório](https://github.com/Daviramos7/orcamento-publico-recife) |
-| 🕹️ **MushMC BedWars ETL** | Transformação de logs não estruturados, encoding legado, Regex e Window Functions | Python, PySpark, Pandas | [Repositório](https://github.com/Daviramos7/Mushmc-bedwars-etl) |
-| 📈 **Stock Data Pipeline** | Ingestão via API, indicadores quantitativos e dashboard interativo | Python, Pandas, NumPy, Streamlit, Plotly | [Repositório](https://github.com/Daviramos7/stock_data_pipeline) |
-| 🏃 **Atleta Hib** | PWA e aplicativo Android com autenticação, RLS, validação de dados e Health Connect | React, TypeScript, PostgreSQL, Supabase, Kotlin | [Repositório](https://github.com/Daviramos7/AtletaHib) |
-
-<div align="center">
-
-[![Conheça todos os projetos](https://img.shields.io/badge/Conhe%C3%A7a%20todos%20os%20projetos-19B5A5?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Daviramos7?tab=repositories)
-
-</div>
-
----
-
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Classical%20Building.png" alt="🏛️" width="28" /> Experiência prática
 
 Na Secretaria Municipal da Fazenda, contribuo com:
@@ -117,14 +115,6 @@ Na Secretaria Municipal da Fazenda, contribuo com:
 <img src="https://raw.githubusercontent.com/Daviramos7/Daviramos7/output/pipeline.svg" width="100%" alt="Pipeline ETL animado com os dados do meu GitHub, atualizado diariamente" />
 
 <br /><br />
-
-[![Repositórios públicos](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2FDaviramos7&query=%24.public_repos&label=Reposit%C3%B3rios%20p%C3%BAblicos&color=0D1621&style=for-the-badge&logo=github&logoColor=white)](https://github.com/Daviramos7?tab=repositories)
-[![Seguidores](https://img.shields.io/github/followers/Daviramos7?style=for-the-badge&logo=github&label=Seguidores&color=19B5A5)](https://github.com/Daviramos7?tab=followers)
-[![Estrelas](https://img.shields.io/github/stars/Daviramos7?affiliations=OWNER&style=for-the-badge&logo=github&label=Estrelas&color=34495E)](https://github.com/Daviramos7?tab=repositories)
-[![Projetos em destaque](https://img.shields.io/badge/Projetos%20em%20destaque-4-19B5A5?style=for-the-badge&logo=github&logoColor=white)](#projetos-em-destaque)
-[![Visitas ao perfil](https://komarev.com/ghpvc/?username=Daviramos7&label=Visitas%20ao%20perfil&color=19B5A5&style=for-the-badge)](https://github.com/Daviramos7)
-
-<br />
 
 ![Python](https://img.shields.io/badge/Linguagem%20principal-Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Dados](https://img.shields.io/badge/Foco-Engenharia%20de%20Dados-19B5A5?style=flat-square&logo=databricks&logoColor=white)
@@ -171,11 +161,9 @@ Na Secretaria Municipal da Fazenda, contribuo com:
 
 ---
 
-
 <div align="center">
   <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMzg0bGtzYW9kNGM2cXluYWJzaHhrdzdqOGI1bjI4dzRyZ2tpdmdwdiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/KYxruH6Oay8vfXJgjz/giphy.gif" width="500" alt="Cristiano Ronaldo comemorando">
   <p><em>Disciplina, consistência e evolução.</em></p>
 </div>
-
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:19B5A5,100:0D1621&height=110&section=footer&animation=twinkling" alt="Rodapé visual" />

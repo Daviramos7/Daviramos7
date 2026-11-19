@@ -120,8 +120,6 @@ else:
     janela_dias = 0
 hora_pico = max(range(24), key=lambda h: sum(heat[(d, h)] for d in range(7))) if heat else None
 
-stars = sum(r["stargazers_count"] for r in repos)
-forks = sum(r["forks_count"] for r in repos)
 semanas = [sum(c for _, c in dias[k:k + 7]) for k in range(max(0, len(dias) - 182), len(dias), 7)]
 repo_recente = max(repos, key=lambda r: r["pushed_at"])["name"] if repos else "-"
 etapa("transform", "KPIs, sequências, série semanal e heatmap calculados", t0)
@@ -219,9 +217,8 @@ for i, (x, (nome, sub)) in enumerate(zip(xs, etapas)):
 
 c.append(f'<text x="28" y="172" font-size="13" font-weight="700" class="m" {MONO}>fato_github · {len(repos)} repositórios · {len(eventos_unicos)} eventos · {len(dias)} dias</text>')
 kpis = [("Contribuições/ano", contrib_ano), ("Commits/ano", totais.get("totalCommitContributions", commits_eventos)),
-        ("Repositórios", user["public_repos"]), ("Pull requests", totais.get("totalPullRequestContributions", 0)),
-        ("Estrelas", stars), ("Seguidores", user["followers"])]
-cw, gap = 124, 9
+        ("Pull requests", totais.get("totalPullRequestContributions", 0)), ("Repositórios", user["public_repos"])]
+cw, gap = 191, 10
 for i, (rot, val) in enumerate(kpis):
     x = 28 + i * (cw + gap)
     d = 0.9 + i * 0.15

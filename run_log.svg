@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="386" viewBox="0 0 850 386" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif"><style>
+.t{fill:#FFFFFF} .m{fill:#8B9BB4} .c{fill:#19B5A5} .b{fill:#50ABF1} .ok{fill:#2ECC71} .err{fill:#E74C3C}
+.fade{opacity:0;animation:fade .7s ease forwards}
+@keyframes fade{to{opacity:1}}
+.up{opacity:0;animation:up .7s ease forwards}
+@keyframes up{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+.pulse{animation:pulse 1.6s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.25}}
+.blink{animation:pulse 1s steps(1) infinite}
+.dash{stroke-dasharray:6 6;animation:dash 1s linear infinite}
+@keyframes dash{to{stroke-dashoffset:-12}}
+.glow{animation:glow 2.4s ease-in-out infinite}
+@keyframes glow{0%,100%{stroke-opacity:.35}50%{stroke-opacity:1}}
+</style><rect width="850" height="386" rx="14" fill="#0D1621" stroke="#34495E"/><circle cx="26" cy="22" r="6" fill="#FF5F57"/><circle cx="46" cy="22" r="6" fill="#FEBC2E"/><circle cx="66" cy="22" r="6" fill="#28C840"/><text x="425.0" y="27" text-anchor="middle" font-size="12" class="m">github_etl — run log · 21/11/2026 07:55</text>
+<text x="24" y="60" font-size="12.5" class="t fade" font-family="Fira Code, Consolas, Menlo, monospace" style="animation-delay:0.30s">$ python github_etl.py --user Daviramos7</text>
+<text x="24" y="79" font-size="12.5" class="m fade" font-family="Fira Code, Consolas, Menlo, monospace" style="animation-delay:0.62s">[EXTRACT] 11 repositórios lidos de /users/Daviramos7/repos (0.69s)</text>
+<text x="24" y="98" font-size="12.5" class="m fade" font-family="Fira Code, Consolas, Menlo, monospace" style="animation-delay:0.94s">[EXTRACT] 371 dias de calendário de contribuições (GraphQL) (0.45s)</text>
+<text x="24" y="117" font-size="12.5" class="m fade" font-family="Fira Code, Consolas, Menlo, monospace" style="animation-delay:1.26s">[EXTRACT] 50 eventos públicos recentes (0.33s)</text>
+<text x="24" y="136" font-size="12.5" class="m fade" font-family="Fira Code, Consolas, Menlo, monospace" style="animation-delay:1.58s">[TRANSFORM] KPIs, sequências, série semanal e heatmap calculados (0.00s)</text>
+<text x="24" y="155" font-size="12.5" class="m fade" font-family="Fira Code, Consolas, Menlo, monospace" style="animation-delay:1.90s">[LOAD] pipeline.svg e heatmap.svg renderizados (0.00s)</text>
+<text x="24" y="174" font-size="12.5" class="c fade" font-family="Fira Code, Consolas, Menlo, monospace" style="animation-delay:2.22s">Running 8 data tests...</text>
+<text x="24" y="193" font-size="12.5" class="ok fade" font-family="Fira Code, Consolas, Menlo, monospace" style="animation-delay:2.54s">1 of 8 PASS not_null_repos_name ......................... [5µs]</text>
+<text x="24" y="212" font-size="12.5" class="ok fade" font-family="Fira Code, Consolas, Menlo, monospace" style="animation-delay:2.86s">2 of 8 PASS unique_repos_id ............................. [6µs]</text>
+<text x="24" y="231" font-size="12.5" class="ok fade" font-family="Fira Code, Consolas, Menlo, monospace" style="animation-delay:3.18s">3 of 8 PASS not_negative_stargazers ..................... [4µs]</text>
+<text x="24" y="250" font-size="12.5" class="ok fade" font-family="Fira Code, Consolas, Menlo, monospace" style="animation-delay:3.50s">4 of 8 PASS weekly_series_matches_calendar .............. [9µs]</text>
+<text x="24" y="269" font-size="12.5" class="ok fade" font-family="Fira Code, Consolas, Menlo, monospace" style="animation-delay:3.82s">5 of 8 PASS calendar_has_365_days ....................... [1µs]  -- 371 dias</text>
+<text x="24" y="288" font-size="12.5" class="ok fade" font-family="Fira Code, Consolas, Menlo, monospace" style="animation-delay:4.14s">6 of 8 PASS not_negative_contributions .................. [14µs]</text>
+<text x="24" y="307" font-size="12.5" class="ok fade" font-family="Fira Code, Consolas, Menlo, monospace" style="animation-delay:4.46s">7 of 8 PASS unique_events_id ............................ [5µs]  -- 0 duplicados removidos</text>
+<text x="24" y="326" font-size="12.5" class="ok fade" font-family="Fira Code, Consolas, Menlo, monospace" style="animation-delay:4.78s">8 of 8 PASS freshness_last_push_lt_30d .................. [5µs]</text>
+<text x="24" y="345" font-size="12.5" class="ok fade" font-family="Fira Code, Consolas, Menlo, monospace" style="animation-delay:5.10s">Done. PASS=8 WARN=0 ERROR=0 TOTAL=8</text>
+<text x="24" y="364" font-size="12.5" class="c blink fade" font-family="Fira Code, Consolas, Menlo, monospace" style="animation-delay:5.42s">$ ▌</text></svg>

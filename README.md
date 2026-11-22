@@ -44,6 +44,7 @@ Participo do desenvolvimento de uma solução interna para ingestão, validaçã
 | Projeto | O que demonstra | Tecnologias | Acesso |
 |:--|:--|:--|:--:|
 | 🏛️ **Orçamento Público do Recife** | Receitas e despesas de 2023 em pipeline ponta a ponta: **127 mil registros**, modelo estrela com **86 testes de dados**, API de 12 endpoints e agente de IA medido por **35 evals** (Gemini 97,1% · qwen2.5 100%, zero números inventados) | Python, PySpark, dbt, PostgreSQL, FastAPI, LLM tool calling, Gemini, Streamlit, Docker | [App online](https://orcamento-recife.streamlit.app) · [Repositório](https://github.com/Daviramos7/orcamento-publico-recife) |
+| 📈 **Stock Data Pipeline** | Pipeline diário de cotações B3 e EUA, do dado bruto ao dashboard: camadas **bronze/silver/gold** com carga incremental e idempotente desde 2015, gold em **dbt-duckdb** com calendário de pregões e testes de qualidade, orquestração no **GitHub Actions** com alertas via Issues e **111 testes** | Python, dbt, DuckDB, GitHub Actions, Parquet, Streamlit | [App online](https://stockdatapipeline.streamlit.app) · [Repositório](https://github.com/Daviramos7/stock_data_pipeline) |
 | 🕹️ **MushMC BedWars ETL** | Transformação de logs não estruturados, encoding legado, Regex e Window Functions | Python, PySpark, Pandas | [Repositório](https://github.com/Daviramos7/Mushmc-bedwars-etl) |
 
 <div align="center">
@@ -66,6 +67,7 @@ Participo do desenvolvimento de uma solução interna para ingestão, validaçã
 ![ETL](https://img.shields.io/badge/ETL-19B5A5?style=flat-square&logo=databricks&logoColor=white)
 ![Parquet](https://img.shields.io/badge/Parquet-50ABF1?style=flat-square&logo=apache&logoColor=white)
 ![dbt](https://img.shields.io/badge/dbt-FF694B?style=flat-square&logo=dbt&logoColor=white)
+![DuckDB](https://img.shields.io/badge/DuckDB-FFF000?style=flat-square&logo=duckdb&logoColor=black)
 
 ### Backend e aplicações
 
@@ -82,6 +84,7 @@ Participo do desenvolvimento de uma solução interna para ingestão, validaçã
 ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
 ### IA aplicada

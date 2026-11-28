@@ -1,0 +1,205 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="260" viewBox="0 0 850 260" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif"><style>
+.t{fill:#FFFFFF} .m{fill:#8B9BB4} .c{fill:#19B5A5} .b{fill:#50ABF1} .ok{fill:#2ECC71} .err{fill:#E74C3C}
+.fade{opacity:0;animation:fade .7s ease forwards}
+@keyframes fade{to{opacity:1}}
+.up{opacity:0;animation:up .7s ease forwards}
+@keyframes up{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+.pulse{animation:pulse 1.6s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.25}}
+.blink{animation:pulse 1s steps(1) infinite}
+.dash{stroke-dasharray:6 6;animation:dash 1s linear infinite}
+@keyframes dash{to{stroke-dashoffset:-12}}
+.glow{animation:glow 2.4s ease-in-out infinite}
+@keyframes glow{0%,100%{stroke-opacity:.35}50%{stroke-opacity:1}}
+</style><rect width="850" height="260" rx="14" fill="#0D1621" stroke="#34495E"/><text x="28" y="36" font-size="16" font-weight="700" class="t">Quando eu codifico</text><text x="28" y="56" font-size="12" class="m">47 commits nos últimos ~28 dias, por hora (horário de Recife) · pico às 10h</text>
+<text x="56" y="91" text-anchor="end" font-size="11" class="m">Seg</text>
+<rect x="66" y="76" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.00s"><title>Seg 0h: 0 commits</title></rect>
+<rect x="87" y="76" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.04s"><title>Seg 1h: 0 commits</title></rect>
+<rect x="108" y="76" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.08s"><title>Seg 2h: 0 commits</title></rect>
+<rect x="129" y="76" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.12s"><title>Seg 3h: 0 commits</title></rect>
+<rect x="150" y="76" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.16s"><title>Seg 4h: 0 commits</title></rect>
+<rect x="171" y="76" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.20s"><title>Seg 5h: 0 commits</title></rect>
+<rect x="192" y="76" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.24s"><title>Seg 6h: 0 commits</title></rect>
+<rect x="213" y="76" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.28s"><title>Seg 7h: 0 commits</title></rect>
+<rect x="234" y="76" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.32s"><title>Seg 8h: 0 commits</title></rect>
+<rect x="255" y="76" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.36s"><title>Seg 9h: 0 commits</title></rect>
+<rect x="276" y="76" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.40s"><title>Seg 10h: 0 commits</title></rect>
+<rect x="297" y="76" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.36" class="fade" style="animation-delay:0.44s"><title>Seg 11h: 1 commits</title></rect>
+<rect x="318" y="76" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.48s"><title>Seg 12h: 0 commits</title></rect>
+<rect x="339" y="76" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.52s"><title>Seg 13h: 0 commits</title></rect>
+<rect x="360" y="76" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.56s"><title>Seg 14h: 0 commits</title></rect>
+<rect x="381" y="76" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.60s"><title>Seg 15h: 0 commits</title></rect>
+<rect x="402" y="76" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.64s"><title>Seg 16h: 0 commits</title></rect>
+<rect x="423" y="76" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.68s"><title>Seg 17h: 0 commits</title></rect>
+<rect x="444" y="76" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.72s"><title>Seg 18h: 0 commits</title></rect>
+<rect x="465" y="76" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.76s"><title>Seg 19h: 0 commits</title></rect>
+<rect x="486" y="76" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.80s"><title>Seg 20h: 0 commits</title></rect>
+<rect x="507" y="76" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.84s"><title>Seg 21h: 0 commits</title></rect>
+<rect x="528" y="76" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.88s"><title>Seg 22h: 0 commits</title></rect>
+<rect x="549" y="76" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.92s"><title>Seg 23h: 0 commits</title></rect>
+<text x="56" y="112" text-anchor="end" font-size="11" class="m">Ter</text>
+<rect x="66" y="97" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.04s"><title>Ter 0h: 0 commits</title></rect>
+<rect x="87" y="97" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.08s"><title>Ter 1h: 0 commits</title></rect>
+<rect x="108" y="97" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.12s"><title>Ter 2h: 0 commits</title></rect>
+<rect x="129" y="97" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.16s"><title>Ter 3h: 0 commits</title></rect>
+<rect x="150" y="97" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.20s"><title>Ter 4h: 0 commits</title></rect>
+<rect x="171" y="97" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.24s"><title>Ter 5h: 0 commits</title></rect>
+<rect x="192" y="97" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.28s"><title>Ter 6h: 0 commits</title></rect>
+<rect x="213" y="97" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.32s"><title>Ter 7h: 0 commits</title></rect>
+<rect x="234" y="97" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.36s"><title>Ter 8h: 0 commits</title></rect>
+<rect x="255" y="97" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.40s"><title>Ter 9h: 0 commits</title></rect>
+<rect x="276" y="97" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.44s"><title>Ter 10h: 0 commits</title></rect>
+<rect x="297" y="97" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.48s"><title>Ter 11h: 0 commits</title></rect>
+<rect x="318" y="97" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.52s"><title>Ter 12h: 0 commits</title></rect>
+<rect x="339" y="97" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.56s"><title>Ter 13h: 0 commits</title></rect>
+<rect x="360" y="97" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.60s"><title>Ter 14h: 0 commits</title></rect>
+<rect x="381" y="97" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.64s"><title>Ter 15h: 0 commits</title></rect>
+<rect x="402" y="97" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.68s"><title>Ter 16h: 0 commits</title></rect>
+<rect x="423" y="97" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.72s"><title>Ter 17h: 0 commits</title></rect>
+<rect x="444" y="97" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.76s"><title>Ter 18h: 0 commits</title></rect>
+<rect x="465" y="97" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.80s"><title>Ter 19h: 0 commits</title></rect>
+<rect x="486" y="97" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.84s"><title>Ter 20h: 0 commits</title></rect>
+<rect x="507" y="97" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.88s"><title>Ter 21h: 0 commits</title></rect>
+<rect x="528" y="97" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.92s"><title>Ter 22h: 0 commits</title></rect>
+<rect x="549" y="97" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.96s"><title>Ter 23h: 0 commits</title></rect>
+<text x="56" y="133" text-anchor="end" font-size="11" class="m">Qua</text>
+<rect x="66" y="118" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.36" class="fade" style="animation-delay:0.08s"><title>Qua 0h: 1 commits</title></rect>
+<rect x="87" y="118" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.12s"><title>Qua 1h: 0 commits</title></rect>
+<rect x="108" y="118" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.16s"><title>Qua 2h: 0 commits</title></rect>
+<rect x="129" y="118" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.20s"><title>Qua 3h: 0 commits</title></rect>
+<rect x="150" y="118" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.24s"><title>Qua 4h: 0 commits</title></rect>
+<rect x="171" y="118" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.28s"><title>Qua 5h: 0 commits</title></rect>
+<rect x="192" y="118" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.36" class="fade" style="animation-delay:0.32s"><title>Qua 6h: 1 commits</title></rect>
+<rect x="213" y="118" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.36s"><title>Qua 7h: 0 commits</title></rect>
+<rect x="234" y="118" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.36" class="fade" style="animation-delay:0.40s"><title>Qua 8h: 1 commits</title></rect>
+<rect x="255" y="118" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.44s"><title>Qua 9h: 0 commits</title></rect>
+<rect x="276" y="118" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.48s"><title>Qua 10h: 0 commits</title></rect>
+<rect x="297" y="118" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.52s"><title>Qua 11h: 0 commits</title></rect>
+<rect x="318" y="118" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.56s"><title>Qua 12h: 0 commits</title></rect>
+<rect x="339" y="118" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.46" class="fade" style="animation-delay:0.60s"><title>Qua 13h: 2 commits</title></rect>
+<rect x="360" y="118" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.64s"><title>Qua 14h: 0 commits</title></rect>
+<rect x="381" y="118" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.68s"><title>Qua 15h: 0 commits</title></rect>
+<rect x="402" y="118" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.72s"><title>Qua 16h: 0 commits</title></rect>
+<rect x="423" y="118" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.76s"><title>Qua 17h: 0 commits</title></rect>
+<rect x="444" y="118" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.80s"><title>Qua 18h: 0 commits</title></rect>
+<rect x="465" y="118" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.84s"><title>Qua 19h: 0 commits</title></rect>
+<rect x="486" y="118" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.88s"><title>Qua 20h: 0 commits</title></rect>
+<rect x="507" y="118" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.92s"><title>Qua 21h: 0 commits</title></rect>
+<rect x="528" y="118" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.96s"><title>Qua 22h: 0 commits</title></rect>
+<rect x="549" y="118" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:1.00s"><title>Qua 23h: 0 commits</title></rect>
+<text x="56" y="154" text-anchor="end" font-size="11" class="m">Qui</text>
+<rect x="66" y="139" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.12s"><title>Qui 0h: 0 commits</title></rect>
+<rect x="87" y="139" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.16s"><title>Qui 1h: 0 commits</title></rect>
+<rect x="108" y="139" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.20s"><title>Qui 2h: 0 commits</title></rect>
+<rect x="129" y="139" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.24s"><title>Qui 3h: 0 commits</title></rect>
+<rect x="150" y="139" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.28s"><title>Qui 4h: 0 commits</title></rect>
+<rect x="171" y="139" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.32s"><title>Qui 5h: 0 commits</title></rect>
+<rect x="192" y="139" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.36s"><title>Qui 6h: 0 commits</title></rect>
+<rect x="213" y="139" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.40s"><title>Qui 7h: 0 commits</title></rect>
+<rect x="234" y="139" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.44s"><title>Qui 8h: 0 commits</title></rect>
+<rect x="255" y="139" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.46" class="fade" style="animation-delay:0.48s"><title>Qui 9h: 2 commits</title></rect>
+<rect x="276" y="139" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="1.00" class="fade" style="animation-delay:0.52s"><title>Qui 10h: 7 commits</title></rect>
+<rect x="297" y="139" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.56s"><title>Qui 11h: 0 commits</title></rect>
+<rect x="318" y="139" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.60s"><title>Qui 12h: 0 commits</title></rect>
+<rect x="339" y="139" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.64s"><title>Qui 13h: 0 commits</title></rect>
+<rect x="360" y="139" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.68s"><title>Qui 14h: 0 commits</title></rect>
+<rect x="381" y="139" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.72s"><title>Qui 15h: 0 commits</title></rect>
+<rect x="402" y="139" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.76s"><title>Qui 16h: 0 commits</title></rect>
+<rect x="423" y="139" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.80s"><title>Qui 17h: 0 commits</title></rect>
+<rect x="444" y="139" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.84s"><title>Qui 18h: 0 commits</title></rect>
+<rect x="465" y="139" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.88s"><title>Qui 19h: 0 commits</title></rect>
+<rect x="486" y="139" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.92s"><title>Qui 20h: 0 commits</title></rect>
+<rect x="507" y="139" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.96s"><title>Qui 21h: 0 commits</title></rect>
+<rect x="528" y="139" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:1.00s"><title>Qui 22h: 0 commits</title></rect>
+<rect x="549" y="139" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:1.04s"><title>Qui 23h: 0 commits</title></rect>
+<text x="56" y="175" text-anchor="end" font-size="11" class="m">Sex</text>
+<rect x="66" y="160" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.16s"><title>Sex 0h: 0 commits</title></rect>
+<rect x="87" y="160" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.20s"><title>Sex 1h: 0 commits</title></rect>
+<rect x="108" y="160" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.24s"><title>Sex 2h: 0 commits</title></rect>
+<rect x="129" y="160" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.28s"><title>Sex 3h: 0 commits</title></rect>
+<rect x="150" y="160" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.32s"><title>Sex 4h: 0 commits</title></rect>
+<rect x="171" y="160" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.36s"><title>Sex 5h: 0 commits</title></rect>
+<rect x="192" y="160" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.40s"><title>Sex 6h: 0 commits</title></rect>
+<rect x="213" y="160" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.44s"><title>Sex 7h: 0 commits</title></rect>
+<rect x="234" y="160" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.48s"><title>Sex 8h: 0 commits</title></rect>
+<rect x="255" y="160" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.52s"><title>Sex 9h: 0 commits</title></rect>
+<rect x="276" y="160" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.56s"><title>Sex 10h: 0 commits</title></rect>
+<rect x="297" y="160" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.60s"><title>Sex 11h: 0 commits</title></rect>
+<rect x="318" y="160" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.64s"><title>Sex 12h: 0 commits</title></rect>
+<rect x="339" y="160" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.68s"><title>Sex 13h: 0 commits</title></rect>
+<rect x="360" y="160" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.72s"><title>Sex 14h: 0 commits</title></rect>
+<rect x="381" y="160" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.76s"><title>Sex 15h: 0 commits</title></rect>
+<rect x="402" y="160" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.68" class="fade" style="animation-delay:0.80s"><title>Sex 16h: 4 commits</title></rect>
+<rect x="423" y="160" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.84s"><title>Sex 17h: 0 commits</title></rect>
+<rect x="444" y="160" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.88s"><title>Sex 18h: 0 commits</title></rect>
+<rect x="465" y="160" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.92s"><title>Sex 19h: 0 commits</title></rect>
+<rect x="486" y="160" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.96s"><title>Sex 20h: 0 commits</title></rect>
+<rect x="507" y="160" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:1.00s"><title>Sex 21h: 0 commits</title></rect>
+<rect x="528" y="160" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:1.04s"><title>Sex 22h: 0 commits</title></rect>
+<rect x="549" y="160" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:1.08s"><title>Sex 23h: 0 commits</title></rect>
+<text x="56" y="196" text-anchor="end" font-size="11" class="m">Sáb</text>
+<rect x="66" y="181" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.20s"><title>Sáb 0h: 0 commits</title></rect>
+<rect x="87" y="181" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.24s"><title>Sáb 1h: 0 commits</title></rect>
+<rect x="108" y="181" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.28s"><title>Sáb 2h: 0 commits</title></rect>
+<rect x="129" y="181" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.32s"><title>Sáb 3h: 0 commits</title></rect>
+<rect x="150" y="181" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.36s"><title>Sáb 4h: 0 commits</title></rect>
+<rect x="171" y="181" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.40s"><title>Sáb 5h: 0 commits</title></rect>
+<rect x="192" y="181" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.44s"><title>Sáb 6h: 0 commits</title></rect>
+<rect x="213" y="181" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.48s"><title>Sáb 7h: 0 commits</title></rect>
+<rect x="234" y="181" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.52s"><title>Sáb 8h: 0 commits</title></rect>
+<rect x="255" y="181" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.56s"><title>Sáb 9h: 0 commits</title></rect>
+<rect x="276" y="181" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.60s"><title>Sáb 10h: 0 commits</title></rect>
+<rect x="297" y="181" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.64s"><title>Sáb 11h: 0 commits</title></rect>
+<rect x="318" y="181" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.68s"><title>Sáb 12h: 0 commits</title></rect>
+<rect x="339" y="181" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.72s"><title>Sáb 13h: 0 commits</title></rect>
+<rect x="360" y="181" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.76s"><title>Sáb 14h: 0 commits</title></rect>
+<rect x="381" y="181" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.36" class="fade" style="animation-delay:0.80s"><title>Sáb 15h: 1 commits</title></rect>
+<rect x="402" y="181" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.84s"><title>Sáb 16h: 0 commits</title></rect>
+<rect x="423" y="181" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.88s"><title>Sáb 17h: 0 commits</title></rect>
+<rect x="444" y="181" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.36" class="fade" style="animation-delay:0.92s"><title>Sáb 18h: 1 commits</title></rect>
+<rect x="465" y="181" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.96s"><title>Sáb 19h: 0 commits</title></rect>
+<rect x="486" y="181" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:1.00s"><title>Sáb 20h: 0 commits</title></rect>
+<rect x="507" y="181" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:1.04s"><title>Sáb 21h: 0 commits</title></rect>
+<rect x="528" y="181" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:1.08s"><title>Sáb 22h: 0 commits</title></rect>
+<rect x="549" y="181" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:1.12s"><title>Sáb 23h: 0 commits</title></rect>
+<text x="56" y="217" text-anchor="end" font-size="11" class="m">Dom</text>
+<rect x="66" y="202" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.36" class="fade" style="animation-delay:0.24s"><title>Dom 0h: 1 commits</title></rect>
+<rect x="87" y="202" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.28s"><title>Dom 1h: 0 commits</title></rect>
+<rect x="108" y="202" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.32s"><title>Dom 2h: 0 commits</title></rect>
+<rect x="129" y="202" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.36s"><title>Dom 3h: 0 commits</title></rect>
+<rect x="150" y="202" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.40s"><title>Dom 4h: 0 commits</title></rect>
+<rect x="171" y="202" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.44s"><title>Dom 5h: 0 commits</title></rect>
+<rect x="192" y="202" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.48s"><title>Dom 6h: 0 commits</title></rect>
+<rect x="213" y="202" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.52s"><title>Dom 7h: 0 commits</title></rect>
+<rect x="234" y="202" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.56s"><title>Dom 8h: 0 commits</title></rect>
+<rect x="255" y="202" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.60s"><title>Dom 9h: 0 commits</title></rect>
+<rect x="276" y="202" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:0.64s"><title>Dom 10h: 0 commits</title></rect>
+<rect x="297" y="202" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.57" class="fade" style="animation-delay:0.68s"><title>Dom 11h: 3 commits</title></rect>
+<rect x="318" y="202" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.46" class="fade" style="animation-delay:0.72s"><title>Dom 12h: 2 commits</title></rect>
+<rect x="339" y="202" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.57" class="fade" style="animation-delay:0.76s"><title>Dom 13h: 3 commits</title></rect>
+<rect x="360" y="202" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.46" class="fade" style="animation-delay:0.80s"><title>Dom 14h: 2 commits</title></rect>
+<rect x="381" y="202" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.36" class="fade" style="animation-delay:0.84s"><title>Dom 15h: 1 commits</title></rect>
+<rect x="402" y="202" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.57" class="fade" style="animation-delay:0.88s"><title>Dom 16h: 3 commits</title></rect>
+<rect x="423" y="202" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.68" class="fade" style="animation-delay:0.92s"><title>Dom 17h: 4 commits</title></rect>
+<rect x="444" y="202" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.68" class="fade" style="animation-delay:0.96s"><title>Dom 18h: 4 commits</title></rect>
+<rect x="465" y="202" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.36" class="fade" style="animation-delay:1.00s"><title>Dom 19h: 1 commits</title></rect>
+<rect x="486" y="202" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:1.04s"><title>Dom 20h: 0 commits</title></rect>
+<rect x="507" y="202" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:1.08s"><title>Dom 21h: 0 commits</title></rect>
+<rect x="528" y="202" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.08" class="fade" style="animation-delay:1.12s"><title>Dom 22h: 0 commits</title></rect>
+<rect x="549" y="202" width="18" height="18" rx="4" fill="#19B5A5" fill-opacity="0.46" class="fade" style="animation-delay:1.16s"><title>Dom 23h: 2 commits</title></rect>
+<text x="75" y="237" text-anchor="middle" font-size="10" class="m">0h</text>
+<text x="138" y="237" text-anchor="middle" font-size="10" class="m">3h</text>
+<text x="201" y="237" text-anchor="middle" font-size="10" class="m">6h</text>
+<text x="264" y="237" text-anchor="middle" font-size="10" class="m">9h</text>
+<text x="327" y="237" text-anchor="middle" font-size="10" class="m">12h</text>
+<text x="390" y="237" text-anchor="middle" font-size="10" class="m">15h</text>
+<text x="453" y="237" text-anchor="middle" font-size="10" class="m">18h</text>
+<text x="516" y="237" text-anchor="middle" font-size="10" class="m">21h</text>
+<text x="610" y="68" font-size="12" font-weight="700" class="m">Contribuições/ano por dia</text>
+<text x="610" y="90" font-size="11" class="m">Seg</text><rect x="644" y="80" width="0" height="12" rx="6" fill="#19B5A5"><animate attributeName="width" from="0" to="46" dur=".9s" begin="1.20s" fill="freeze"/></rect><text x="696" y="90" font-size="11" class="t fade" style="animation-delay:2.10s">29</text>
+<text x="610" y="111" font-size="11" class="m">Ter</text><rect x="644" y="101" width="0" height="12" rx="6" fill="#19B5A5"><animate attributeName="width" from="0" to="22" dur=".9s" begin="1.32s" fill="freeze"/></rect><text x="672" y="111" font-size="11" class="t fade" style="animation-delay:2.22s">14</text>
+<text x="610" y="132" font-size="11" class="m">Qua</text><rect x="644" y="122" width="0" height="12" rx="6" fill="#19B5A5"><animate attributeName="width" from="0" to="97" dur=".9s" begin="1.44s" fill="freeze"/></rect><text x="747" y="132" font-size="11" class="t fade" style="animation-delay:2.34s">61</text>
+<text x="610" y="153" font-size="11" class="m">Qui</text><rect x="644" y="143" width="0" height="12" rx="6" fill="#19B5A5"><animate attributeName="width" from="0" to="29" dur=".9s" begin="1.56s" fill="freeze"/></rect><text x="679" y="153" font-size="11" class="t fade" style="animation-delay:2.46s">18</text>
+<text x="610" y="174" font-size="11" class="m">Sex</text><rect x="644" y="164" width="0" height="12" rx="6" fill="#19B5A5"><animate attributeName="width" from="0" to="46" dur=".9s" begin="1.68s" fill="freeze"/></rect><text x="696" y="174" font-size="11" class="t fade" style="animation-delay:2.58s">29</text>
+<text x="610" y="195" font-size="11" class="m">Sáb</text><rect x="644" y="185" width="0" height="12" rx="6" fill="#50ABF1"><animate attributeName="width" from="0" to="49" dur=".9s" begin="1.80s" fill="freeze"/></rect><text x="699" y="195" font-size="11" class="t fade" style="animation-delay:2.70s">31</text>
+<text x="610" y="216" font-size="11" class="m">Dom</text><rect x="644" y="206" width="0" height="12" rx="6" fill="#50ABF1"><animate attributeName="width" from="0" to="150" dur=".9s" begin="1.92s" fill="freeze"/></rect><text x="800" y="216" font-size="11" class="t fade" style="animation-delay:2.82s">94</text></svg>
